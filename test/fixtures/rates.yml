@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fifteen_year_fixed: 9.99
+  rate_date: 2016-02-07
+
+two:
+  fifteen_year_fixed: 9.99
+  rate_date: 2016-02-07
