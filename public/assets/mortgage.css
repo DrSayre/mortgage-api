@@ -2501,7 +2501,7 @@ nav ul a span.badge {
 .no-padding {
   padding: 0 !important; }
 
-/* This is needed for some mobile p hones to display the Google Icon font properly */
+/* This is needed for some mobile phones to display the Google Icon font properly */
 .material-icons {
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga'; }
