@@ -4,7 +4,7 @@
 /* jshint ignore:end */
 
 define('mortgage/adapters/application', ['exports', 'ember-data'], function (exports, _emberData) {
-  // import ActiveModelAdapter from 'active-model-adapter';
+  // import ActiveModelAdapter from 'active-model-adapter'; k
 
   exports['default'] = _emberData['default'].ActiveModelAdapter.extend({
     namespace: 'api/v1'
