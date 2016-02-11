@@ -1020,11 +1020,10 @@ define('mortgage/key-responder', ['exports', 'ember'], function (exports, _ember
   _ember['default'].Checkbox.reopen(KeyResponderInputSupport);
   _ember['default'].Select.reopen(KeyResponderInputSupport);
 });
-define('mortgage/mirage/config', ['exports'], function (exports) {
-  exports['default'] = function () {
-    this.namespace = 'api/v1';
-    this.get('/rates');
-  };
+define("mortgage/mirage/config", ["exports"], function (exports) {
+  exports["default"] = function () {}
+  // this.namespace = 'api/v1';
+  // this.get('/rates');
 
   /*
   You can optionally export a config that is only loaded during tests
@@ -1032,6 +1031,7 @@ define('mortgage/mirage/config', ['exports'], function (exports) {
   
   }
   */
+  ;
 });
 define('mortgage/mirage/factories/contact', ['exports', 'ember-cli-mirage'], function (exports, _emberCliMirage) {
   exports['default'] = _emberCliMirage['default'].Factory.extend({
@@ -1692,7 +1692,7 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("mortgage/app")["default"].create({"name":"mortgage","version":"0.0.0+c94d9435"});
+  require("mortgage/app")["default"].create({"name":"mortgage","version":"0.0.0+d50f574a"});
 }
 
 /* jshint ignore:end */
